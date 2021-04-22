@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 880px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  padding: 8px;
+}
+th{
+    border: 1px solid #242424 !important;
+
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+
+.h100{
+    height: 100px;
+}
+.d-flex{
+    display: flex;
+}
+.ligne{
+    width: 100%;
+    display: block;
+    margin: 8px 0;
+    font-weight: initial;
+}
+.img{
+    margin: 0 0 0 158px;
+    width: 107px;
+}
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+          <th height="318">
+              <div style="    display: flow-root;">
+                <span class="fl">ROYAUME DU MAROC</span>
+                <img class="img" src="./logo.png" alt="">
+                <div class="fr" style="text-align: left;">
+                    <span class="ligne">
+                        <label for="">- Région :</lable>
+                        <input type="text" id="" name="" style="width: 258px;">
+                        </span>
+                    <span class="ligne">
+                        <label for="">- Préfecture /Province :</lable>
+                        <input type="text" id="" name="" style="width: 164px;">
+                        </span>
+                    <span class="ligne">
+                        <label for="">- Préfecture d’arrondissements :</lable>
+                        <input type="text" id="" name="" style="width: 100px;">
+                        </span>
+                    <span class="ligne">
+                        <label for="">- Commune / Arrondissement:</lable>
+                        <input type="text" id="" name="" style="width: 114px;">
+                        </span>
+                </div>
+              </div>
+              <span style=" margin: 24px; display: block; font-size: xx-large;"> CERTIFICAT DE DECES </span>
+              <div class="d-flex">
+                    <div style="width: 79%; text-align: left;">
+                        <span class="ligne">
+                            <label for="deces_date">Décès survenu le : </label>
+                            <input type="date" style="width: 124px;" name="deces_date" id="deces_date">
+                            <label for="deces_time">à : </label>
+                            <input type="time" style="width: 92px;" name="deces_time" id="deces_time">
+                            <label for="">S'agit-il d'un mort-né ?</label>
+                            <input type="radio" id="oui" name="gender" value="oui">
+                            <label for="oui">Oui </label>
+                            <input type="radio" id="non" name="gender" value="non">
+                            <label for="non">Non</label>
+                        </span>
+                        <span class="ligne">
+                            <label for="place_deces">Adresse du lieu de décès :</label>
+                            <input style="width: 466px;" type="text" id="place_deces" name="gender" >
+                        </span>
+                        <span class="ligne">
+                            <label for="nom">Nom :</label>
+                            <input type="text" style="width: 155px;" name="nom" id="nom">
+                            <label for="prenom">Prénom :</label>
+                            <input type="text" style="width: 155px;" name="prenom" id="prenom">
+                            <label for="cnie">CNIE :</label>
+                            <input type="text" style="width: 155px;" name="cnie" id="cnie">
+                        </span>
+                        <span class="ligne">
+                            <span>Sexe :</span>        
+                            <input type="radio" id="male" name="gender" value="male">
+                            <label for="male">Masculin</label>
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="female">Féminin</label>
+                            <input type="radio" id="other" name="gender" value="other">
+                            <label for="other">Indéterminé</label>
+                            <span style="width: 22px;display: inline-table;"></span>
+                            <label for="nationalite">Nationalité :</label>
+                            <input type="text" style="width: 200px;" name="cnie" id="cnie">
+                               </span>
+                        <span class="ligne">
+                            <label for="other">Date de naissance :</label>
+                            <input type="text" style="width: 166px;" name="cnie" id="cnie">
+
+                            <span style="width: 22px;display: inline-table;"></span>
+                            <label for="nationalite">Lieu de naissance :</label>
+                            <input type="text" style="width: 166px;" name="cnie" id="cnie">
+
+                        
+                        </span>
+                        <span class="ligne">
+                            Adresse du domicile habituel :
+                            <input type="text" style="width: 155px;" name="cnie" id="cnie">
+
+                        </span>
+                        <span class="ligne">
+                            <label for="">Y a-t-il un obstacle médico-légal ? </label>
+                            <input type="radio" id="oui" name="gender" value="oui">
+                            <label for="oui">Oui </label>
+                            <input type="radio" id="non" name="gender" value="non">
+                            <label for="non">Non</label>
+    
+                        </span>
+                        <span class="ligne">
+                            <label for="">N° de l’acte au registre des décès :</label>
+                            <input type="text" style="width: 155px;" name="cnie" id="cnie">
+
+                        </span>
+                    </div>
+                    <div style="border-left: 1px solid #6b6b6b; width: 21%;">
+                        
+                        
+                        <span class="ligne" style="height: 140px;">
+                            <label for="">Signature et cachet</label>
+
+                        </span>
+                        <span class="ligne">
+                            <label for="">Constatation faite :</label>
+
+                        </span>
+                        <span class="ligne">
+                            <label for="">A :</label>
+                            <input type="text" style="width: 132px;" name="cnie" id="cnie">
+
+                        </span>
+                        <span class="ligne">
+                            <label for="">le :</label>
+                            <input type="date" style="width: 132px;" name="cnie" id="cnie">
+
+                        </span>
+                        
+                    </div>
+              </div>
+        
+        </th>
+        </tr>
+      </table>
+      <span class="ligne"> <img src="./cut.png" alt="" style="    width: 72px;
+        margin: -32px -29px -32px 0px;"> ---------------------------------------------------------------------------------------------------------------------------------------------------------</span>
+      <table>
+        <tr>
+          <th height="318">
+              <div style="    display: flow-root;">
+                <span >Partie destinée au Ministère de la Santé</span>
+                <span class="ligne" style="text-align: left;">
+                    <label for="deces_date">N° de l’acte au registre des décès : </label>
+                    <input type="text" style="width: 124px;" name="deces_date" id="deces_date">
+                </span>
+              </div>
+              <span style=" margin: 24px; display: block; font-size: xx-large;"> Identification </span>
+              <div class="d-flex">
+                    <div style="width: 79%; text-align: left;">
+
+                        <span class="ligne">
+                            <div class="row">
+                                <div class="col-4">
+                                    <label for="place_deces">Lieu de survenue du décès : </label>
+        
+                                </div>
+                                <div class="col-8">
+                                    <label for="place_deces">Lieu de survenue du décès : </label>
+                                    <input style="width: 466px;" type="text" id="place_deces" name="gender" >
+        
+                                </div>
+                            </div>
+                        </span>
+                        <span class="ligne">
+                            <label for="nom">Nom :</label>
+                            <input type="text" style="width: 155px;" name="nom" id="nom">
+                            <label for="prenom">Prénom :</label>
+                            <input type="text" style="width: 155px;" name="prenom" id="prenom">
+                            <label for="cnie">CNIE :</label>
+                            <input type="text" style="width: 155px;" name="cnie" id="cnie">
+                        </span>
+                        <span class="ligne">
+                            <span>Sexe :</span>        
+                            <input type="radio" id="male" name="gender" value="male">
+                            <label for="male">Masculin</label>
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="female">Féminin</label>
+                            <input type="radio" id="other" name="gender" value="other">
+                            <label for="other">Indéterminé</label>
+                            <span style="width: 22px;display: inline-table;"></span>
+                            <label for="nationalite">Nationalité :</label>
+                            <input type="text" style="width: 200px;" name="cnie" id="cnie">
+                               </span>
+                        <span class="ligne">
+                            <label for="other">Date de naissance :</label>
+                            <input type="text" style="width: 166px;" name="cnie" id="cnie">
+
+                            <span style="width: 22px;display: inline-table;"></span>
+                            <label for="nationalite">Lieu de naissance :</label>
+                            <input type="text" style="width: 166px;" name="cnie" id="cnie">
+
+                        
+                        </span>
+                        <span class="ligne">
+                            Adresse du domicile habituel :
+                            <input type="text" style="width: 155px;" name="cnie" id="cnie">
+
+                        </span>
+                        <span class="ligne">
+                            <label for="">Y a-t-il un obstacle médico-légal ? </label>
+                            <input type="radio" id="oui" name="gender" value="oui">
+                            <label for="oui">Oui </label>
+                            <input type="radio" id="non" name="gender" value="non">
+                            <label for="non">Non</label>
+    
+                        </span>
+                        <span class="ligne">
+                            <label for="">N° de l’acte au registre des décès :</label>
+                            <input type="text" style="width: 155px;" name="cnie" id="cnie">
+
+                        </span>
+                    </div>
+                    <div style="border-left: 1px solid #6b6b6b; width: 21%;">
+                        
+                        
+                        <span class="ligne" style="height: 140px;">
+                            <label for="">Signature et cachet</label>
+
+                        </span>
+                        <span class="ligne">
+                            <label for="">Constatation faite :</label>
+
+                        </span>
+                        <span class="ligne">
+                            <label for="">A :</label>
+                            <input type="text" style="width: 132px;" name="cnie" id="cnie">
+
+                        </span>
+                        <span class="ligne">
+                            <label for="">le :</label>
+                            <input type="date" style="width: 132px;" name="cnie" id="cnie">
+
+                        </span>
+                        
+                    </div>
+              </div>
+        
+        </th>
+        </tr>
+      </table>   
+</body>
+</html>
